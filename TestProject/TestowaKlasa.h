@@ -1,5 +1,8 @@
 #ifndef TestowaKlasa
 
+#include <string>
+#include<iostream>
+
 
 class TestowaKlasa
 {
@@ -9,6 +12,7 @@ class TestowaKlasa
 	public:
 		TestowaKlasa(int g);
 		void JakasPublicznaMetoda(int x);
+		void Napis1(int a) {  std::cout << "Wprowadzona liczba to: " << a << std::endl; };
 };
 
 

@@ -15,4 +15,5 @@ void TestowaKlasa::JakasPublicznaMetoda(int x)
 	int g = 0;
 	g += x;
 	g = g * g;
+	g *= 24 - 18;
 }
