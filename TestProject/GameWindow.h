@@ -1,6 +1,7 @@
 #ifndef GameWindow_h
 #define GameWindow_h
 #include <stdlib.h>
+#include <glut.h>
 
 class GameWindow
 {

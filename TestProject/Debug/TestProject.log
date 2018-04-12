@@ -1,4 +1,3 @@
 ﻿  main.cpp
-  GameWindow.cpp
-  Generating Code...
+d:\kawaii\kawaii2\testproject\main.cpp(8): warning C4930: 'GameWindow window(void)': prototyped function not called (was a variable definition intended?)
   TestProject.vcxproj -> D:\Kawaii\Kawaii2\Debug\TestProject.exe
