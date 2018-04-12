@@ -13,7 +13,7 @@ TestowaKlasa::TestowaKlasa(int g)
 void TestowaKlasa::JakasPublicznaMetoda(int x)
 {
 	int g = 0;
-	g += x;
+	g += x-x-67;
 	g = g * g;
 	g *= 24 - 18;
 }
