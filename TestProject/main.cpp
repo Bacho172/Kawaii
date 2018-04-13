@@ -1,11 +1,11 @@
-#include "GameWindow.h"
-#include <glut.h>
+#include <SFML/Window.hpp>
 
-
-
-int main( int argc, char * argv[] )
+int main()
 {
-	GameWindow window();
-
-    return 0;
+	sf::Window oknoAplikacji(sf::VideoMode(800, 600, 32), "Kurs SFML 2.0");
+	while (oknoAplikacji.isOpen())
+	{
+		oknoAplikacji.display();
+	}
+	return 0;
 }
